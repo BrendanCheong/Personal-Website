@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+/build
 develop-eggs/
 dist/
 downloads/
@@ -38,6 +39,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
+/coverage
 htmlcov/
 .tox/
 .nox/
@@ -190,6 +192,7 @@ yarn-error.log*
 
 # Dependency directories
 node_modules/
+/node_modules
 jspm_packages/
 
 # Optional npm cache directory
@@ -209,6 +212,10 @@ jspm_packages/
 
 # dotenv environment variables file
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # next.js build output
 .next
@@ -219,3 +226,15 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+*.pem
+
+# vercel
+.vercel
+
+# next.js
+/.next/
+/out/
+
+#dependencies
+/.pnp
+.pnp.js

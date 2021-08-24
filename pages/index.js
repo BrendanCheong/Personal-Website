@@ -11,9 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+      <main className="flex flex-col items-center justify-center flex-1 p-20">
+        <h1 className="text-6xl leading-5 font-nunito">
+          Welcome to <a href="https://nextjs.org" className="transition duration-300 text-blue-500/95 hover:underline">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
