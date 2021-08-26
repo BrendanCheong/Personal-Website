@@ -1,7 +1,11 @@
 const Layout = ({ children }) => {
     return (
-        <div className="flex flex-col w-screen h-screen bg-white dark:bg-bluegray-800">
-            {children}
+        <div className="outline-none">
+            <div className="flex flex-col w-screen h-full min-h-screen transition duration-500 ease-in-out bg-white dark:bg-bluegray-800">
+                <div className="container relative mx-auto">
+                    {children}
+                </div>
+            </div>
         </div>
     )
 }

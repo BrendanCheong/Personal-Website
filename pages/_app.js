@@ -6,15 +6,17 @@ import Navbar from '@/Global/Navbar';
 
 function MyApp({ Component, pageProps }) {
   return (
-  <Layout>
-
+  
+    <>
     <Head>
       <title>Brendan&apos;s Website</title>
       <meta name="description" content="Welcome to Brendan Cheong Ern Jie's Portfolio Website!"/>
     </Head>
     <Navbar/>
-    <Component {...pageProps} />
-  </Layout>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  </>
   )
 }
 
