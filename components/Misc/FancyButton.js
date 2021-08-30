@@ -1,36 +1,17 @@
 const FancyButton = () => {
 
-    const css = `
-        .pushable {
-            background: hsl(340deg 100% 32%);
-            border-radius: 12px;
-            border: none;
-            padding: 0;
-            cursor: pointer;
-            outline-offset: 4px;
-        }
-        .front {
-            display: block;
-            padding: 5px 20px;
-            border-radius: 12px;
-            font-size: 16px;
-            background: hsl(345deg 100% 47%);
-            color: white;
-            transform: translateY(-6px);
-        }
-    
-        .pushable:active .front {
-            transform: translateY(-2px);
-        }
-    `
     return (
         <>
-            <style>{css}</style>
-            <button className="pushable">
-                <span className="front">
-                    More
-                </span>
-            </button>
+            <div className="flex items-center justify-center">
+                <button className="relative block w-full m-10 text-center cursor-pointer">
+                    {/** <!-- background shadow --> */}
+                    <div className="absolute inset-x-0 bg-gray-100 border border-gray-500 rounded-lg bottom-1" />
+                    {/* <!-- text --> */}
+                    <div className="relative px-10 py-4 text-xl font-thin leading-none tracking-wider transition duration-200 ease-in-out transform bg-gray-100 border border-gray-500 rounded-lg bottom-1 hover:translate-y-1 active:translate-y-4">
+                        Click Me!
+                    </div>
+                </button>
+            </div>
         </>
     )
 }
