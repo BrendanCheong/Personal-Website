@@ -4,3 +4,11 @@
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
 My personal website built with tailwindCSS and Nextjs
+
+Currently a WIP
+
+TO-DO:
+1) Finish the Front-Page
+2) Design using Figma
+3) Implement Dark Mode
+4) Create Individual Pages for Projects and integrate with Strapi
