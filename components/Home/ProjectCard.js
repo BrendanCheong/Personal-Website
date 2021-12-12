@@ -8,7 +8,7 @@ const ProjectCard = () => {
                 {/** <!-- container for all cards --> */}
                 <div className="container flex flex-col mx-auto w-100 lg:w-4/5">
                 {/** <!-- card --> */}
-                    <div v-for="card in cards" className="flex flex-col w-11/12 mx-2 mt-4 ml-4 overflow-hidden rounded-lg shadow-xl bg-coolgray-200 dark:bg-bluegray-500 md:flex-row">
+                    <div v-for="card in cards" className="flex flex-col w-11/12 mx-2 mt-4 ml-4 overflow-hidden rounded-lg shadow-xl bg-stone-50 dark:bg-slate-500 md:flex-row">
                         {/** <!-- media --> */}
                         <div className="relative block w-auto h-auto p-3 lg:ml-14 md:w-1/2">
                             <Image className="inset-0 object-cover object-center w-full h-full" 
