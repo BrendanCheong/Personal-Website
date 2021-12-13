@@ -3,7 +3,7 @@ import Image from "next/image";
 import BuildMe from "../../pictures/BuildMe.png";
 
 const ProjectCard = () => {
-    return ( 
+    return (
             <div id="card" className="">
                 {/** <!-- container for all cards --> */}
                 <div className="container flex flex-col mx-auto w-100 lg:w-4/5">
