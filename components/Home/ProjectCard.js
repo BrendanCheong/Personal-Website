@@ -31,7 +31,7 @@ const ProjectCard = () => {
                                 <h4 className="mt-2 text-lg font-semibold tracking-wide text-gray-700 uppercase">
                                     Links:
                                 </h4>
-                                <section className="grid grid-cols-2 mt-[10px] divide-x">
+                                <section className="grid grid-cols-2 mt-[10px] divide-x divide-zinc-500">
                                     
                                     <p className="px-2 text-base font-semibold tracking-wide text-gray-700 underline ">
                                         Github
@@ -40,7 +40,6 @@ const ProjectCard = () => {
                                         App
                                     </p>
                                 </section>
-                                <FancyButton/>
                             </section>
                         </div>
                     </div>
