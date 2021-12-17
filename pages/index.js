@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       {/** <!-- Bio --> */}
-      <main id="Brendan Bio"className="p-5 space-y-4">
+      <main id="Brendan Bio"className="p-5 mt-12 space-y-4">
         <section id="Bio description" className="space-y-10">
           <div className="relative space-y-5 text-5xl font-poppins">
             <h1>Hi, I&apos;m</h1>
