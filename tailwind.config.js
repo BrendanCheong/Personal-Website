@@ -1,24 +1,25 @@
-const colors = require("tailwindcss/colors");
+// eslint-disable-next-line import/no-extraneous-dependencies
+const colors = require('tailwindcss/colors');
 
 module.exports = {
-  mode: "jit",
+  mode: 'jit',
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
   darkMode: 'class', // 'media' for default dark, 'class' for default light, can toggle between both
   theme: {
     extend: {
       fontFamily: {
         poppins: ['Poppins'],
-        nunito: ['Nunito+Sans']
-      }
+        nunito: ['Nunito+Sans'],
+      },
     },
     colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      black: "#000",
-      white: "#fff",
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: '#000',
+      white: '#fff',
       slate: colors.slate,
       gray: colors.gray,
       neutral: colors.neutral,
@@ -41,10 +42,10 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
-    }
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};

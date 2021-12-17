@@ -1,4 +1,3 @@
-import FancyButton from "@/Misc/FancyButton";
 import Image from "next/image";
 import BuildMe from "../../pictures/BuildMe.png";
 
@@ -45,7 +44,7 @@ const ProjectCard = () => {
                     </div>
                 {/** <!--/ card--> */}
                 </div>
-                {/** <!--/ flex--> */}
+              {/** <!--/ flex--> */}
             </div>
     )
 }
