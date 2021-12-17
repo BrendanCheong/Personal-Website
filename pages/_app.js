@@ -7,15 +7,24 @@ import Navbar from '@/Global/Navbar';
 function MyApp({ Component, pageProps }) {
   return (
   
-    <>
-    <Head>
-      <title>Brendan&apos;s Website</title>
-      <meta name="description" content="Welcome to Brendan Cheong Ern Jie's Portfolio Website!"/>
-    </Head>
-    <Navbar/>
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+  <>
+    <div className="h-full min-h-screen transition duration-500 ease-in-out">
+      <div className="container relative mx-auto">
+        <Head>
+          <title>Brendan&apos;s Portfolio - Aspiring Fullstack Developer and Data Analyst</title>
+          <meta name="description" content="Welcome to Brendan Cheong Ern Jie's Portfolio Website! Check out my projects and skills here!"/>
+          <meta name="author" content="Brendan Cheong Ern Jie"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+          <meta name="keywords" content="Full-stack web development, Data Analytics, HTML, CSS, Javascript, Brendan Cheong, Brendan, Brendan Cheong Ern Jie, Java, Python, web developer, frontend, backend, fullstack, software developer, data analyst, data engineer, programmer, web developer, app developer, Brendan"/>
+          <meta name="type" content="application"/>
+          <meta name="url" content="http://www.brendancheong.vercel.app"/>
+        </Head>
+        <Navbar/>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+        </div>
+      </div>
   </>
   )
 }
