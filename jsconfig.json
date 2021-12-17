@@ -1,10 +1,13 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
+        "baseUrl": "./",
         "paths": {
             "@/Home/*": ["components/Home/*"],
             "@/Global/*": ["components/Global/*"],
-            "@/Misc/*": ["components/Misc/*"]
+            "@/Misc/*": ["components/Misc/*"],
+            "@/Project/*": ["components/Project/*"],
+            "@/SVG/*": ["components/SVG/*"],
+            "@/pictures/*": ["/pictures/*"],
         }
     }
 }

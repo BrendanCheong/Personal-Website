@@ -1,6 +1,6 @@
 const Navbar = () => {
     /**
-     * TODO
+     * TODO:
      * 1) Remove Shadow Upon Scrolling with document.adddEventListener('scroll', event)
      * 2) Make Navbar Desktop Responsive on Laptops and Monitors
      */
