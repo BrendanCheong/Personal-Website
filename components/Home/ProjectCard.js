@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BuildMe from "../../pictures/BuildMe.png";
+import BuildMe from "@/pictures/BuildMe.png";
 
 const ProjectCard = () => {
     return (
