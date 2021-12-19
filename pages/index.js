@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Projects from '@/Home/Projects';
 import Footer from '@/Global/Footer';
+import Skills from '@/Home/Skills/Skills';
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         </div>
       </main>
       <Projects/>
+      <Skills/>
       <Footer/>
     </div>
   )

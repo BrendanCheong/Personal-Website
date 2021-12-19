@@ -1,4 +1,4 @@
-const FancyButton = function () {
+const FancyButton = () => {
   return (
     <div className="flex items-center justify-center">
       <button className="relative block w-full m-10 text-center cursor-pointer">

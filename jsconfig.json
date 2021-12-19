@@ -3,6 +3,7 @@
         "baseUrl": "./",
         "paths": {
             "@/Home/*": ["components/Home/*"],
+            "@/Home/Skills/*": ["components/Home/Skills/*"],
             "@/Global/*": ["components/Global/*"],
             "@/Misc/*": ["components/Misc/*"],
             "@/Project/*": ["components/Project/*"],

@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
   
   <>
-    <div className="h-full min-h-screen transition duration-500 ease-in-out">
+    <div className="min-h-screen transition duration-500 ease-in-out min-w-screen">
       <div className="container relative mx-auto">
         <Head>
           <title>Brendan&apos;s Portfolio - Aspiring Fullstack Developer and Data Analyst</title>

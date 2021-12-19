@@ -8,33 +8,30 @@ const Footer = () => {
      * 1) Make this footer desktop responsive
      */
     return(
-        <div className="flex flex-col content-center w-full h-40 p-5 mt-20 space-y-5 bg-neutral-100 rounded-t-3xl lg:hidden font-poppins" id="footer">
-            <h1 className="text-lg font-bold text-center uppercase">Get In Touch With Me!</h1>
-            <div className="w-full" id="Links">
-                <div className="flex flex-row space-x-5 text-black dark:text-white ml-7">
-                    <a className="flex flex-row items-center mt-4 lg:mr-10" href="https://github.com/BrendanCheong" target="_blank" rel="noopener noreferrer">
-                        <div className="mt-1">
-                            <Github/>
-                        </div>
-                        <span className="mt-1 mr-1 underline text-md">GitHub</span>
+        <section className="bg-transparent">
+            <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-5 overflow-hidden sm:px-6 lg:px-8">
+                <h1 className="text-xl text-center font-poppins text-neutral-400">Get In Touch With Me!</h1>
+                <div className="flex justify-center mt-8 space-x-6">
+                    <a href="https://www.linkedin.com/in/brendan-cheong-ern-jie/" className="text-gray-400 hover:text-gray-500" target="_blank"
+                    rel="noreferrer">
+                        <span className="sr-only">LinkedIn</span>
+                        <LinkedIn/>
                     </a>
-                    <a className="flex flex-row items-center mt-4 lg:mr-10" href="https://www.linkedin.com/in/brendan-cheong-ern-jie/" target="_blank" rel="noopener noreferrer">
-                        <div className="mt-1">
-                            <LinkedIn/>
-                        </div>
-                        <span className="mt-1 mr-1 underline text-md">LinkedIn</span>
+                    <a href="https://github.com/BrendanCheong" className="text-gray-400 hover:text-gray-500" target="_blank" rel="noreferrer">
+                        <span className="sr-only">GitHub</span>
+                        <Github/>
                     </a>
-                    <a className="flex flex-row items-center mt-4 lg:mr-10" href="mailto: brendan_cej@u.nus.edu" target="_blank" rel="noopener noreferrer">
-                        <div className="mt-1">
-                            <Mail/>
-                        </div>
-                        <span className="mt-1 mr-1 underline text-md">Email</span>
+                    <a href="mailto: brendan_cej@u.nus.edu" className="text-gray-400 hover:text-gray-500">
+                        <span className="sr-only">Email</span>
+                        <Mail/>
                     </a>
                 </div>
+                <p className="mt-8 font-sans text-base leading-6 text-center text-gray-400 dark:text-white">
+                    Made by Brendan Cheong.
+                </p>
             </div>
-        </div>
+    </section>
     )
-    
 }
 
 export default Footer
